@@ -279,6 +279,14 @@ ul#nav li.current a { color: #8bc34a; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
+.columns1 {
+   float: left;
+   width: 40%;
+}
+.columns2 {
+   float: right;
+  width: 40%;
+}
 .bars {
 	width: 95%;
 	float: left;
@@ -293,7 +301,7 @@ ul#nav li.current a { color: #8bc34a; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 10px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -314,8 +322,8 @@ ul#nav li.current a { color: #8bc34a; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 10px;
+   line-height: 10px;
    border-radius: 3px 0 0 3px;
 }
 
@@ -826,11 +834,11 @@ call-to-action .button {
    padding: 18px 20px;
 	color: #eee;
 	background: #373233;
-	margin-bottom: 42px;
+	margin-bottom: 30px;
 	border: 0;
 	outline: none;
    font-size: 15px;
-   line-height: 24px;
+   line-height: 15px;
    width: 65%;
 }
 #contact input:focus,
@@ -863,7 +871,7 @@ call-to-action .button {
    display: none;
 	background: #0F0F0F;
 	padding: 24px 24px;
-	margin-bottom: 36px;
+	margin-bottom: 20px;
    width: 65%;
    margin-left: 26%;
 }
@@ -911,6 +919,7 @@ footer {
    color: #303030;
    font-size: 14px;
    text-align: center;
+   color:rgb(231, 223, 223);
    position: relative;
 }
 
