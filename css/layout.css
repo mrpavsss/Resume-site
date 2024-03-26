@@ -279,14 +279,18 @@ ul#nav li.current a { color: #8bc34a; }
 /*	Skill Bars
 /*----------------------------------------------*/
 
-.columns1 {
-   float: left;
+.columns1, .columns2 {
+   display: inline-block;
    width: 40%;
-}
-.columns2 {
-   float: right;
-  width: 40%;
-}
+ }
+ 
+ /* Styles for screens smaller than 768px */
+ @media (max-width: 768px) {
+   .columns1, .columns2 {
+     display: block;
+     width: 100%;
+   }
+ }
 .bars {
 	width: 95%;
 	float: left;
