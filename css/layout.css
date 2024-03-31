@@ -435,6 +435,28 @@ ul#nav li.current a { color: #8bc34a; }
    cursor: pointer;
 }
 
+/* Styles for non-desktop screens */
+@media (max-width: 769px) {
+   .portfolio-item {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 36px; /* Adjust as needed */
+   }
+ 
+   .portfolio-item .item-wrap {
+     width: 48%; /* Adjust as needed */
+     height: auto;
+     margin-right: 4%; /* Adjust as needed */
+   }
+ 
+   .portfolio-item > div:last-child {
+     width: 48%; /* Adjust as needed */
+     padding-left: 20px; /* Adds spacing between the image and the description */
+   }
+ }
+ 
+
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
