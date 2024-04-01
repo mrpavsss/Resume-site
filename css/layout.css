@@ -421,7 +421,7 @@ ul#nav li.current a { color: #8bc34a; }
    background: #fff;
    overflow: hidden;
    position: relative;
-   width: 100px;
+   width: 130px;
    height: 130px;
 
    -webkit-transition: all 0.3s ease-in-out;
@@ -610,25 +610,29 @@ ul#nav li.current a { color: #8bc34a; }
    color: #313131;
 }
 
-/* Interests Content */
-#interests-wrapper .columns { margin-bottom: 36px; }
-.interests-item .item-wrap {
+#interests-wrapper {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 10px; /* Adjust the gap as needed */
+ }
+ 
+ .interests-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
    width: 130px;
    height: 130px;
-
    -webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.interests-item .item-wrap a {
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+ }
+ 
+ .interests-item .item-wrap a {
    display: block;
    cursor: pointer;
-}
+ }
 
 /* Styles for non-desktop screens */
 @media (max-width: 769px) {
