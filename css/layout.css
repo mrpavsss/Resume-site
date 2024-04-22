@@ -469,8 +469,9 @@ ul#nav li.current a { color: #8bc34a; }
    background: #fff;
    overflow: hidden;
    position: relative;
-   width: 100%;
-   height: 200px;
+   width: 130px;
+   height: 130px;
+   margin-left: 18%;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -478,6 +479,12 @@ ul#nav li.current a { color: #8bc34a; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+.portfolio-h5 h5 {
+   margin: 5px 0 0 0; /* Add a very small padding between the image and its title */
+   font-size: 0.8em; /* Decrease the size of the text */
+   font-weight: normal; /* Make the text not bold */
+   text-align: center; /* Center align the title */
+ }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
@@ -550,29 +557,17 @@ ul#nav li.current a { color: #8bc34a; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
-  object-fit: cover; /* This will make the image fit within its container */
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
-   margin: 5px 0 0 0; /* Add a very small padding between the image and its title */
-   font-size: 0.8em; /* Decrease the size of the text */
-   font-weight: normal; /* Make the text not bold */
-   text-align: center; /* Center align the title */
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
-/* Style for the title */
-.portfolio-h5 h5 {
-   margin: 5px 0 0 0; /* Add a very small padding between the image and its title */
-   font-size: 0.8em; /* Decrease the size of the text */
-   font-weight: normal; /* Make the text not bold */
-   text-align: center; /* Center align the title */
- }
 
 /* on hover */
 .portfolio-item:hover .overlay {
