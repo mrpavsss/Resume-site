@@ -396,6 +396,54 @@ ul#nav li.current a { color: #8bc34a; }
   100% { width: 80%;  }
 }
 
+/* Set the background color of the component to light orange */
+#interests {
+   background-color: #FFAD73; /* Light orange */
+   padding: 50px 20px; /* Add padding to the top and bottom of the component */
+ }
+ 
+ /* Center the h1 on the page and set its color to black */
+ #interests h1 {
+   text-align: center;
+   color: black;
+   font-size: 1.5em; /* Decrease the size of the title */
+   font-weight: normal; /* Make the title not bold */
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 48px;
+   color: #313131;
+ }
+ 
+ /* Style for the interests items */
+ .interests-item {
+   width: calc(20% - 10px); /* For 5 items per row, subtracting the padding */
+   position: relative; /* To position the title at the bottom */
+   margin-bottom: 30px; /* Add some space at the bottom of each item */
+   padding: 5px; /* Add padding around each item */
+ }
+ 
+ /* Style for the image */
+ .interests-item img {
+   width: 100%;
+   height: auto;
+ }
+ 
+ /* Style for the title */
+ .interests-item h5 {
+   margin: 5px 0 0 0; /* Add a very small padding between the image and its title */
+   font-size: 0.8em; /* Decrease the size of the text */
+   font-weight: normal; /* Make the text not bold */
+   text-align: center; /* Center align the title */
+ }
+ 
+ /* Style for the interests wrapper */
+ #interests-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ 
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -421,8 +469,8 @@ ul#nav li.current a { color: #8bc34a; }
    background: #fff;
    overflow: hidden;
    position: relative;
-   width: 130px;
-   height: 130px;
+   width: 100%;
+   height: 200px;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -507,12 +555,23 @@ ul#nav li.current a { color: #8bc34a; }
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
+   margin: 5px 0 0 0; /* Add a very small padding between the image and its title */
+   font-size: 0.8em; /* Decrease the size of the text */
+   font-weight: normal; /* Make the text not bold */
+   text-align: center; /* Center align the title */
 }
 .portfolio-item .portfolio-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
+/* Style for the title */
+.portfolio-h5 h5 {
+   margin: 5px 0 0 0; /* Add a very small padding between the image and its title */
+   font-size: 0.8em; /* Decrease the size of the text */
+   font-weight: normal; /* Make the text not bold */
+   text-align: center; /* Center align the title */
+ }
 
 /* on hover */
 .portfolio-item:hover .overlay {
