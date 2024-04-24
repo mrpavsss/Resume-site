@@ -113,17 +113,15 @@ header .scrolldown a {
 }
 header .scrolldown a:hover { color: #11ABB0; }
 
-/* primary navigation
---------------------------------------------------------------------- */
+/* primary navigation */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-	 margin: 0;
-	 padding: 0;
-	 border: none;
-	 outline: none;
-}
-
-/* nav-wrap */
-#nav-wrap {
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+ }
+ 
+ #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
    width: 100%;
    text-transform: uppercase;
@@ -133,49 +131,86 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
-}
-.opaque { background-color: #333; }
-
-/* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
-
-ul#nav {
+ }
+ 
+ .opaque { background-color: #333; }
+ 
+ #nav-wrap > a.mobile-btn { display: none; }
+ 
+ ul#nav {
    min-height: 48px;
    width: auto;
-
-   /* center align the menu */
    text-align: center;
-}
-ul#nav li {
+ }
+ 
+ ul#nav li {
    position: relative;
    list-style: none;
    height: 48px;
    display: inline-block;
-}
-
-/* Links */
-ul#nav li a {
-
-/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
-
+ }
+ 
+ ul#nav li a {
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
-	text-decoration: none;
+   text-decoration: none;
    text-align: left;
    color: #fff;
-
-	-webkit-transition: color .2s ease-in-out;
-	-moz-transition: color .2s ease-in-out;
-	-o-transition: color .2s ease-in-out;
-	-ms-transition: color .2s ease-in-out;
-	transition: color .2s ease-in-out;
-}
-
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #8bc34a; }
-
-
+   transition: color .2s ease-in-out;
+ }
+ 
+ ul#nav li a:active { background-color: transparent !important; }
+ ul#nav li.current a { color: #8bc34a; }
+ 
+ @media (max-width: 770px) {
+   #nav-wrap > a.mobile-btn { 
+     display: block; 
+     font-size: 30px; 
+     position: fixed;
+     top: 20px;
+     right: 20px;
+     z-index: 100;
+     cursor: pointer;
+     transition: transform 0.3s ease-in-out;
+     background: grey; /* Grey background for the icon */
+     color: white; /* White color for the icon */
+     width: 40px; /* Width of the icon */
+     height: 40px; /* Height of the icon */
+     line-height: 40px; /* Center the icon vertically */
+     text-align: center; /* Center the icon horizontally */
+   }
+ 
+   #nav-wrap > a.mobile-btn.open {
+     transform: rotate(90deg);
+   }
+ 
+   ul#nav {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 300px;
+     height: 100%;
+     background: #333;
+     padding: 20px;
+     box-sizing: border-box;
+     transition: transform 0.3s ease-in-out;
+     transform: translateX(-100%);
+   }
+ 
+   ul#nav li {
+     display: block; /* Display one item per row */
+     margin-bottom: 20px; /* Add spacing between each row */
+   }
+ 
+   #nav-wrap.open ul#nav {
+     display: block;
+     transform: translateX(0);
+   }
+ }
+ 
+ 
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
