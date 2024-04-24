@@ -426,7 +426,8 @@ ul#nav li.current a { color: #8bc34a; }
  /* Style for the image */
  .interests-item img {
    width: 100%;
-   height: auto;
+   height: 200px; /* Set a fixed height */
+   object-fit: cover; /* This will make the image fit within its container */
  }
  
  /* Style for the title */
@@ -443,7 +444,29 @@ ul#nav li.current a { color: #8bc34a; }
    flex-wrap: wrap;
    justify-content: space-between;
  }
+
+/* Styles for non-desktop screens */
+@media (max-width: 769px) {
+   .interests-item {
+     display: flex;
+     flex-direction: column; /* Stack the image and text vertically */
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 36px; /* Adjust as needed */
+     width: 100%; /* Make the item take up the full width */
+   }
  
+   .interests-item .item-wrap {
+     width: 100%; /* Adjust as needed */
+     height: auto;
+     margin-right: 0; /* Adjust as needed */
+   }
+ 
+   .interests-item > div:last-child {
+     width: 100%; /* Adjust as needed */
+     padding-left: 20px; /* Adds spacing between the image and the description */
+   }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section

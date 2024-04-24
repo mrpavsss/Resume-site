@@ -1,0 +1,318 @@
+{
+  "main": {
+    "name": "Pavly Rizk",
+    "occupation": "Software Developer",
+    "description": ", who is dedicated and hardworking, seeking a full-time position in the field of software development.",
+    "bio": "End to End Product Developer with immense passion towards Mobile & Web development. Experienced with many DB systems and both frontend and backend frameworks.",
+    "email": "mrpavsss@gmail.com",
+    "phone": "551-444-8450",
+    "address": {
+      "city": "Bayonne",
+      "state": "NJ",
+      "zip": "07002"
+    },
+    "website": "http://www.github.com/mrpavsss",
+    "resumedownload": "../../public/resume.pdf",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/mrpavsss",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/mrpavsss/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/pavly-rizk/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "New Jersey Institute of Technology",
+        "degree": "Bachelor",
+        "graduated": "May 2023",
+        "major": "Computer Science",
+        "gpa": "3.32",
+        "courses": "Intensive Programming in Linux, Programming Language Concepts, Advanced Database Systems, Principles of Operating Systems, Computer Networks, Android Development, Advanced Data Structures & Algorithms, Building Web Applications"
+      }
+    ],
+    "work": [
+      {
+        "company": "iGo Stem Academy",
+        "title": "Full-Stack Developer ",
+        "url": "https://stemconnects.com",
+        "years": "February 2022 - current",
+        "description": "Led the design and deployment of a web-based tutoring platform with dynamic scheduling and pricing. Worked within an Agile team, contributing to various stages of the project lifecycle. Utilized Velo and Wix for initial build. Leveraged Next.js, Netlify, multiple APIs, Sequelize, Express, React.js, Node.js, Heroku, and MySQL, and implemented CI/CD for redevelopment."
+      },
+      {
+        "company": "Juego.Juegos",
+        "title": "Senior Backend Engineer ",
+        "url": "https://juego.juegos",
+        "years": "February 2023 - current",
+        "description": "Architectured a secure MySQL/GraphQL database and optimized its performance. Developed REST APIs with React Native and ensured secure authentication using JWT and OAuth2. Utilized various APIs, implemented S3 features, and set up multiple backend environments. Created lambda functions for tasks like AppSync utilization, data migration, push notifications, and authentication. Currently developing an iMessage applet using Xcode and Swift."
+      }
+    ],
+    "volunteer": [
+      {
+        "company": "St. Mark Coptic Orthodox Church",
+        "title": "Servant",
+        "url": "https://saintmark.com",
+        "years": "September 2012 - current",
+        "description": "Planned and facilitated youth meetings and activities to promote spiritual growth, community building, and character development. Mentored and guided 8th-grade youth in navigating life challenges and making positive choices."
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "level": "90%"
+      },
+      {
+        "name": "React Native",
+        "level": "65%"
+      },
+      {
+        "name": "Python",
+        "level": "95%"
+      },
+      {
+        "name": "Java",
+        "level": "80%"
+      },
+      {
+        "name": "C++",
+        "level": "90%"
+      },
+      {
+        "name": "Objective C",
+        "level": "40%"
+      },
+      {
+        "name": "Kotlin",
+        "level": "70%"
+      },
+      {
+        "name": "Bash",
+        "level": "70%"
+      },
+      {
+        "name": "Express",
+        "level": "60%"
+      },
+      {
+        "name": "NodeJS",
+        "level": "90%"
+      },
+      {
+        "name": "PL/SQL",
+        "level": "90%"
+      },
+      {
+        "name": "NextJS",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "95%"
+      },
+      {
+        "name": "CSS",
+        "level": "95%"
+      },
+      {
+        "name": "HTML",
+        "level": "95%"
+      },
+      {
+        "name": "Swift",
+        "level": "60%"
+      },
+      {
+        "name": "C",
+        "level": "80%"
+      },
+      {
+        "name": "Angular",
+        "level": "40%"
+      },
+      {
+        "name": ".Net",
+        "level": "35%"
+      },
+      {
+        "name": "Kafka",
+        "level": "40%"
+      }
+    ]
+    ,
+    "skills2": [
+      
+      {
+        "name": "JSON",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "70%"
+      },
+      {
+        "name": "XML",
+        "level": "40%"
+      },
+      {
+        "name": "MySQL",
+        "level": "95%"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": "80%"
+      },
+      {
+        "name": "SQLite",
+        "level": "90%"
+      },
+      {
+        "name": "PHP",
+        "level": "40%"
+      },
+      {
+        "name": "Terraform",
+        "level": "40%"
+      },
+      {
+        "name": "Docker",
+        "level": "80%"
+      },
+      {
+        "name": "RESTful APIs",
+        "level": "85%"
+      },
+      {
+        "name": "Amazon Web Services",
+        "level": "90%"
+      },
+      {
+        "name": "Microsoft Azure",
+        "level": "50%"
+      },
+      {
+        "name": "Heroku",
+        "level": "75%"
+      },
+      {
+        "name": "Linux/Unix",
+        "level": "75%"
+      },
+      {
+        "name": "Git",
+        "level": "95%"
+      },
+      {
+        "name": "Github",
+        "level": "95%"
+      },
+      {
+        "name": "NoSQL",
+        "level": "90%"
+      },
+      {
+        "name": "Google Cloud Platform",
+        "level": "55%"
+      },
+      {
+        "name": "Trello",
+        "level": "90%"
+      },
+      {
+        "name": "Jira",
+        "level": "65%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Stem Connects",
+        "description": "iGo Stem Academy Tutoring Site",
+        "category": "Tutoring Website",
+        "image": "mern.png",
+        "url": "https://stemconnects.com"
+      },
+      {
+        "title": "Juego.Juegos",
+        "description": "Event Scheduling Mobile App",
+        "category": "Mobile Application",
+        "image": "amplify.png",
+        "url": "https://www.npmjs.com/package/react-d3-bubble"
+      },
+      {
+        "title": "Quicktype",
+        "description": "A typing game web app",
+        "category": "React Web Game",
+        "image": "react.png",
+        "url": "https://quicktype.app"
+      },
+      {
+        "title": "Fast Thumbs",
+        "description": "Android typing game",
+        "category": "Android Typing Game",
+        "image": "kotlin.png",
+        "url": "https://github.com/FragFault/FastThumbs"
+      }
+    ]
+  },
+  "interests": {
+    "hobbies": [
+      {
+        "title": "Learning new programming languages & frameworks",
+        "image": "programming.jpg",
+        "url": "https://stemconnects.com"
+      },
+      {
+        "title": "Watching sports, TV shows, & movies",
+        "image": "watching.jpg",
+        "url": "https://www.npmjs.com/package/react-d3-bubble"
+      },
+      {
+        "title": "Spending time with family & friends",
+        "image": "react.png",
+        "url": "https://quicktype.app"
+      },
+      {
+        "title": "Exploring new restaurants",
+        "image": "kotlin.png",
+        "url": "https://github.com/FragFault/FastThumbs"
+      },
+      {
+        "title": "Making coffee drinks",
+        "image": "kotlin.png",
+        "url": "https://github.com/FragFault/FastThumbs"
+      },
+      {
+        "title": "Traveling to new destinations",
+        "image": "kotlin.png",
+        "url": "https://github.com/FragFault/FastThumbs"
+      },
+      {
+        "title": "Play video games",
+        "image": "kotlin.png",
+        "url": "https://github.com/FragFault/FastThumbs"
+      },
+      {
+        "title": "Cooking",
+        "image": "kotlin.png",
+        "url": "https://github.com/FragFault/FastThumbs"
+      },
+      {
+        "title": "Spending time with my dog",
+        "image": "kotlin.png",
+        "url": "https://github.com/FragFault/FastThumbs"
+      }
+    ]
+  }
+}
